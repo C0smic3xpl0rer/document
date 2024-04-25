@@ -1,0 +1,34 @@
+### Git Command Cheat Sheet
+
+#### Basics
+- `git init`: Initialize a Git repository
+- `git clone [repository]`: Clone a repository
+
+#### Commit
+- `git add [file]`: Add a file to the staging area
+- `git commit -m "[message]"`: Commit changes with a message
+- `git commit -am "[message]"`: Add all changes and commit with a message
+
+#### Branching
+- `git branch`: List branches
+- `git branch [branch_name]`: Create a new branch
+- `git checkout [branch_name]`: Switch to a branch
+- `git merge [branch_name]`: Merge a branch into the current branch
+
+#### Update & Publish
+- `git status`: Check the status of the repository
+- `git pull [alias] [branch]`: Update local repository from remote branch
+- `git push [alias] [branch]`: Publish local commits to the remote repository
+
+#### Undo
+- `git checkout -- [file]`: Discard changes in the working directory
+- `git reset HEAD [file]`: Unstage a file
+- `git revert [commit]`: Revert to a previous commit
+- `git reset --hard [commit]`: Reset to a specific commit and discard all changes
+
+#### Combination Commands
+- `git checkout -b [branch_name]`: Create and switch to a new branch
+- `git add .`: Add all new and changed files to the staging area
+- `git commit -a`: Add all changes and commit
+
+---
